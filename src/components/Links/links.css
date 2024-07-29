@@ -1,0 +1,23 @@
+.site__social-link {
+  display: inline-block;
+  /* line-height: 1.4; */
+  text-align: center;
+  padding: 0.5em;
+  color: black;
+  background: linear-gradient(
+    141deg,
+    rgb(133, 165, 192) 8%,
+    rgb(179, 164, 179) 94%
+  );
+  margin-right: 0.5em;
+  border-radius: 10px;
+  transition-duration: 900ms;
+}
+
+.site__social-link:hover {
+  color: var(--color-text);
+  background: black;
+
+  transition: color 900ms ease-in-out;
+  transform: translateY(-1px);
+}

@@ -1,0 +1,20 @@
+.site__footer {
+  background: linear-gradient(
+    141deg,
+    rgba(8, 7, 55, 0.497) 8%,
+    rgba(60, 44, 60, 0.425) 94%
+  );
+}
+
+.site__footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+  transition: transform 0.3s ease-in-out;
+  --webkit-transition: transform 0.3s ease-in-out;
+}
+
+.footer__note {
+  text-align: center;
+}

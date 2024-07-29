@@ -1,0 +1,11 @@
+.site__contact-cta_btn {
+  border: 1px solid cyan;
+  padding: 0.5em 1em;
+  margin: 0 auto;
+  color: whitesmoke;
+  transition: transform 0.3s ease-in-out;
+}
+
+.site__contact-cta_btn:hover {
+  transform: scale(1.2);
+}

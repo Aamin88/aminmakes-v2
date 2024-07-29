@@ -1,0 +1,15 @@
+.site__footer-social_link {
+  transition: margin-top 750ms;
+  will-change: margin-top;
+  cursor: pointer;
+}
+
+.site__footer-social_link .icon {
+  font-size: 2.5rem;
+  margin-right: 0.8em;
+  color: whitesmoke;
+}
+
+.site__footer-social_link:hover {
+  margin-top: -10px;
+}

@@ -1,0 +1,15 @@
+.site__skills-content_categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (min-width: 993px) {
+  .site__skills-content_categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .site__skills-heading {
+    width: 60%;
+  }
+}

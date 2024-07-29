@@ -1,0 +1,19 @@
+/* src/components/RadiantCursor.css */
+.radiant-cursor {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  pointer-events: none; /* Prevents the cursor effect from interfering with other mouse events */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the radiant effect around the cursor */
+  transition: background 0.2s ease-out;
+  mix-blend-mode: overlay; /* Optional: Adjusts how the effect blends with the background */
+  z-index: 1000; /* Ensure the cursor effect is above other elements */
+}

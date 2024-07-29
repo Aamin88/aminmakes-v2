@@ -1,0 +1,54 @@
+.site__tag {
+  padding: 0.3em;
+  font-size: 0.8rem;
+
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+
+  position: relative;
+  display: block;
+}
+
+.site__tag span {
+  display: inline-block;
+  z-index: 100;
+}
+
+/* .glowing::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    45deg,
+    #e8f74d,
+    #ff6600d9,
+    #00ff66,
+    #13ff13,
+    #ad27ad,
+    #bd2681,
+    #6512b9,
+    #ff3300de,
+    #5aabde
+  );
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: 1;
+  border-radius: 10px;
+  animation: glower 20s linear infinite;
+}
+
+@keyframes glower {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+} */

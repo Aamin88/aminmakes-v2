@@ -1,0 +1,25 @@
+.thegenius {
+  width: 350px;
+}
+
+@media (min-width: 993px) {
+  .site__about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .site__about-content_left {
+    flex-basis: 2;
+  }
+
+  .site__about-content_right {
+    flex-basis: 2;
+  }
+
+  .thegenius {
+    max-width: 150%;
+    width: 550px;
+    border: 2px solid red;
+  }
+}

@@ -1,0 +1,44 @@
+.site__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.site__header-content {
+  flex-basis: 1;
+  width: 100%;
+}
+
+.site__header-content h1 {
+  font-size: clamp(1.825rem, 1.45rem + 2.275vw, 4rem);
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  letter-spacing: 1px;
+}
+
+.site__header-content p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.site__header-content_icon {
+  margin-top: 2em;
+}
+
+.site__heading-content_cv {
+  margin: 3em 0;
+}
+
+@media screen and (min-width: 770px) {
+  .site__heading-intro {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .site__heading-intro {
+    width: 70%;
+  }
+}
